@@ -10,7 +10,7 @@ The Bagisto gift card extension proves invaluable for customers seeking to redee
 * **Personalized Messages:** Enable users to add personalized messages to gift cards, adding a thoughtful touch to each gift.
 * **Balance Tracking:** Provide customers with the ability to track their gift card balances, ensuring transparency and ease of use.
 * **Expiration Management:** Set expiration dates for gift cards to encourage timely usage and prevent misuse.
-* **Integration Compatibility:** Seamlessly integrate with existing e-commerce platforms for smooth operation and enhanced functionality.
+* **Integration Compatibility:** Seamlessly integrate with existing e-commerce platforms for smooth operation and enhanced functionalitys.
 * **Promotional Tools:** Utilize gift cards as part of promotional campaigns, driving sales and customer engagement.
 * **Multilingual Support:** The extension will function across 19 different languages, which are currently supported by Bagisto.
 
