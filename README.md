@@ -18,7 +18,7 @@ The Bagisto Image Crop Extension is designed to enhance the product image manage
    * When an admin edits an existing product image, they will be able to access the same cropping tool used during the initial creation. This ensures consistency in image management and allows for adjustments as needed.
 
 # Requirements:
-* Bagisto: v2.0.0
+* Bagisto: v2.2.2
 * PHP: 8.1 or higher
 * Composer 2.6.3 or higher
 
@@ -28,13 +28,13 @@ Unzip the respective extension zip and then merge "packages" folder into project
 * Goto config/app.php file and add following line under 'providers'
 
 ```
-Webkul\Giftcard\Providers\GiftcardServiceProvider::class
+Webkul\ImageCrop\Providers\ImageCropServiceProvider::class
 ```
 
 * Goto composer.json file and add following line under 'psr-4'
 
 ```
-"Webkul\\Giftcard\\": "packages/Webkul/Giftcard/src"
+"Webkul\\ImageCrop\\": "packages/Webkul/ImageCrop/src"
 ```
 * Run these below commands to complete the setup:
 
@@ -42,26 +42,6 @@ Webkul\Giftcard\Providers\GiftcardServiceProvider::class
 composer dump-autoload
 ```
 ```
-php artisan migrate
-```
-```
 php artisan optimize:clear
-```
-
-* Run the below command and select the Giftcard Service provider from the selection :
-
-```
-php artisan vendor:publish --force
-```
-* Include the PayPal credentials in the loadPayPalScript method. Additionally, ensure that the credentials are entered in the PayPal payment gateway section within the Bagisto admin panel.
-
-* Add the below code in the CartResource File after the payment_method_title :
-
-```
-$this->mergeWhen($this->giftcard_number, [
-    'giftcard_number'           => $this->giftcard_number,
-    'giftcard_amount'           => $this->giftcard_amount,
-    'remaining_giftcard_amount' => $this->remaining_giftcard_amount,
-]),
 ```
 That's it, now just execute the project on your specified domain.
