@@ -16,6 +16,11 @@ The Bagisto Image Crop Extension enhances the product image management experienc
 * **Image Editing Functionality:**
    * In addition to cropping images during the product creation process, the extension supports image cropping during the product image editing process.
    * When an admin edits an existing product image, they will be able to access the same cropping tool used during the initial creation. This ensures consistency in image management and allows for adjustments as needed.
+ 
+   * **Benefits:**
+- **Enhanced Image Control**: Admins gain precise control over the display of product images, allowing for better presentation of products with cropped or full images as needed.
+- **Improved User Experience**: The image cropper tool provides an easy-to-use interface that enhances the overall user experience for admins managing product images.
+- **Flexibility**: The extension caters to different needs by allowing both cropped and full image options, accommodating various preferences and requirements for product presentation.
 
 # Requirements:
 * Bagisto: v2.2.2
