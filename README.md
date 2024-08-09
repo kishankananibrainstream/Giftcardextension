@@ -1,18 +1,21 @@
 # Introduction:
 
-The Bagisto gift card extension proves invaluable for customers seeking to redeem gift cards during their product purchases. This feature allows users to effortlessly share gift card details via email, ideal for occasions such as birthdays, anniversaries, and more. Additionally, users have the flexibility to customize the gift card theme to suit the specific event they wish to commemorate. With Bagisto's gift card extension, both gifting and redeeming become seamless experiences, enhancing customer satisfaction and convenience.
+The Bagisto Image Crop Extension is designed to enhance the product image management experience within the Bagisto e-commerce platform. This extension offers a seamless solution for cropping images during both the product creation and image editing processes. 
 
-# Unlock Growth with Bagisto's Feature-Packed Gift Card Extension!
+# Some Key features of the Image Crop Extension
 
-* **Customizable Themes:** Tailor gift card designs to match various occasions like birthdays, christmas, anniversaries, Etc.
-* **Email Sharing:**  Send gift card details effortlessly via email, enabling seamless gifting for special occasions. During this process, the user selects the occasion, and both the occasion image and message are shared in the email, ensuring a superb user experience.
-* **Flexible Redemption:** Allow customers to redeem gift cards during checkout, enhancing convenience and customer satisfaction.
-* **Personalized Messages:** Enable users to add personalized messages to gift cards, adding a thoughtful touch to each gift.
-* **Balance Tracking:** Provide customers with the ability to track their gift card balances, ensuring transparency and ease of use.
-* **Expiration Management:** Set expiration dates for gift cards to encourage timely usage and prevent misuse.
-* **Integration Compatibility:** Seamlessly integrate with existing e-commerce platforms for smooth operation and enhanced functionality.
-* **Promotional Tools:** Utilize gift cards as part of promotional campaigns, driving sales and customer engagement.
-* **Multilingual Support:** The extension will function across 19 different languages, which are currently supported by Bagisto.
+* **Image Cropping During Product Creation:** 
+    -> When an admin is creating a new product, then at time of uploading the image, the image cropper interface will automatically load.
+    -> The image cropper provides an intuitive and user-friendly interface that allows the admin to crop the image according to their preferences. The cropping tool offers adjustable frames to precisely select the desired portion of the image.
+    -> After cropping, the admin can save the cropped image, which will then be used as the product image. This ensures that only the most relevant part of the image is displayed to customers.
+ 
+* **Full Image Selection Option:**  
+    -> For admins who prefer not to crop the image, the extension offers an option to select the full image without any cropping. This provides flexibility for users who want to use the entire image as is.
+    -> The full image will be saved and displayed as the product image, giving admins the freedom to choose between a cropped or full image based on their requirements.
+
+* **Image Editing Functionality:**
+-> In addition to cropping images during the product creation process, the extension supports image cropping during the product image editing process.
+-> When an admin edits an existing product image, they will be able to access the same cropping tool used during the initial creation. This ensures consistency in image management and allows for adjustments as needed.
 
 # Requirements:
 * Bagisto: v2.0.0
