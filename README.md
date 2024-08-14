@@ -1,21 +1,28 @@
 # Introduction:
 
-The Bagisto Image Crop Extension enhances the product image management experience within the Bagisto e-commerce platform by offering a seamless solution for cropping images during both the product creation and editing processes. 
+Enhance your customer's shopping experience with our Product Image Zoom Extension for Bagisto. This extension allows users to see a magnified view of the product image on hover, providing a detailed and interactive visual of the product.
 
 # Some Key features of the Image Crop Extension
 
-* **Image Cropping During Product Creation:** 
-    * When an admin is creating a new product, then at time of uploading the image, the image cropper interface will automatically load.
-    * The image cropper provides an intuitive and user-friendly interface that allows the admin to crop the image according to their preferences. The cropping tool offers adjustable frames to precisely select the desired portion of the image.
-    * After cropping, the admin can save the cropped image, which will then be used as the product image. This ensures that only the most relevant part of the image is displayed to customers.
- 
-* **Full Image Selection Option:**  
-    * For admins who prefer not to crop the image, the extension offers an option to select the full image without any cropping. This provides flexibility for users who want to use the entire image as is.
-    * The full image will be saved and displayed as the product image, giving admins the freedom to choose between a cropped or full image based on their requirements.
+* **Magnified Image View:** 
+    * Allows customers to hover over the product image to see a zoomed-in view, offering a closer look at product details.
+      
+* **Responsive Design:**  
+    * Fully responsive and works seamlessly on various devices and screen sizes.
 
-* **Image Editing Functionality:**
-   * In addition to cropping images during the product creation process, the extension supports image cropping during the product image editing process.
-   * When an admin edits an existing product image, they will be able to access the same cropping tool used during the initial creation. This ensures consistency in image management and allows for adjustments as needed.
+* **Smooth Animation:**
+   * Provides a smooth zoom effect with minimal loading time for an enhanced user experience.
+ 
+ * **Compatibility:**  
+    * Designed to work with Bagisto versions v2.2.2 and v2.0.0, ensuring broad usability across different installations.
+
+* **Easy Integration:**
+   * Simple to install and integrate into existing Bagisto stores with minimal configuration needed.
+
+* **Lightweight:**
+   * Optimized for performance to ensure quick loading times and a seamless user experience.
+ 
+ 
  
 # **Benefits:**
 - **Enhanced Image Control**: Admins gain precise control over the display of product images, allowing for better presentation of products with cropped or full images as needed.
